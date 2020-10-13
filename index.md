@@ -16,10 +16,12 @@ menuEntry: home
 		{% markdown campaigns.md %}
 		{% include campaigns.md %}
 		{% endcomment %}
-		- [Jadelle contraception program](../campaigns/jadelle-family-planning-program/)
-		- [Scholarships for disadvantaged children/youth](../campaigns/scholarship-program/)
-		- [Support for Girls at Anti-Female Genital Mutilation Safe-Camp in Tanzania](../campaigns/anti-fgm-drive/)
-		- [Matisi Food and Medicine](../campaigns/matisi-food-medicine/)
+<ul>
+  <li><a href="../campaigns/jadelle-family-planning-program/">Jadelle contraception program</a></li>
+  <li><a href="../campaigns/scholarship-program/">Scholarships for disadvantaged children/youth</a></li>
+  <li><a href="../campaigns/anti-fgm-drive/">Support for Girls at Anti-Female Genital Mutilation Safe-Camp in Tanzania</a></li>
+  <li><a href="../campaigns/matisi-food-medicine/">Matisi Food and Medicine</a></li>
+</ul>
 		{% comment %}{% capture my-include %}{% include campaigns.md %}{% endcapture %}
 		{{ my-include | markdownify }}{% endcomment %}
 
